@@ -1,7 +1,7 @@
 
 var board = null // thông tin bàn cờ
 var $board = $('#myBoard') // tham chiếu đến HTML
-var game = new Chess() // quản lý trạng thái
+// var game = new Chess() // quản lý trạng thái
 var whiteSquareLegal = '#a9a9a9'; // màu cho các ô chứa nước đi legal
 var blackSquareLegal = '#696969'; // màu cho các ô chứa nước đi legal
 var squareClass = 'square-55d63';
@@ -14,11 +14,11 @@ var config = {
   position: 'start', // bắt đầu bàn cờ
   draggable: true,   // cho phép kéo thả quân cờ
   dropOffBoard: 'trash',
-  onDragStart: onDragStart,
-  onDrop: onDrop,
-  onMouseoutSquare: onMouseoutSquare,
-  onMouseoverSquare: onMouseoverSquare,
-  onSnapbackEnd: onSnapbackEnd,
+  // onDragStart: onDragStart,
+  // onDrop: onDrop,
+  // onMouseoutSquare: onMouseoutSquare,
+  // onMouseoverSquare: onMouseoverSquare,
+  // onSnapbackEnd: onSnapbackEnd,
   pieceTheme: function (piece) {
     // Thay đổi đường dẫn của hình ảnh tương ứng với các quân cờ
     return './Lib/img/chesspieces/wikipedia/' + piece + '.png';
