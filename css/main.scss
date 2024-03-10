@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.board-layout-sidebar {
+    background-color: black;
+    & .board-layout-chessboard {
+        width: 100%;
+    }
+}
+
+.board-layout-main {
+    & .board-layout-player {
+        background-color: black;
+        height: 4rem;
+        width: 100%;
+    }
+    & .board-layout-chessboard {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+}

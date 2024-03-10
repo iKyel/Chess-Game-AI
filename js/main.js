@@ -9,3 +9,4 @@ var config = {
 }
 
 var myBoard = Chessboard('myBoard', config);
+
